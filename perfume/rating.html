@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback</title>
+    <link rel="stylesheet" href="rating.css">
+    <link rel="icon" type="image/x-icon" href="/images/favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <script defer src="rating.js"></script>
+</head>
+<body>
+<div class="wrapper">  
+    <div class="main shown">
+        <div class="star">
+            <img src="/images/icon-star.svg" alt="star icon">
+        </div>
+        <h2>How did we do?</h2>
+        <p class="description">Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
+        <div class="rates">
+            <button class="rate">1</button>
+            <button class="rate">2</button>
+            <button class="rate">3</button>
+            <button class="rate">4</button>
+            <button class="rate">5</button>
+        </div>
+        <button class="submit">SUBMIT</button>
+    </div>
+
+    <div class="box-2 hidden">
+        <img src="/images/illustration-thank-you.svg" alt="feedback recieved" id="imageSVG">
+        <div class="actualRating">
+            <div class="selected">You selected <span id="rating">5</span> out of 5</div>
+        </div>
+        <h2 class="thanks">Thank you!</h2>
+        <p class="thanks-message">We appreciate you taking the time to give a rating. <br> If you ever need more support, do not hesitate to <br> get in touch</p>
+    </div>
+</div>  
+</body>
+</html>
